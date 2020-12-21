@@ -10,6 +10,8 @@ export AGRIBOT_SIMULATION_YAW="0"
 export AGRIBOT_SIMULATION_GAZEBO_GUI="false"
 export AGRIBOT_SIMULATION_GAZEBO_DEBUG="false"
 
+export AGRIBOT_SIMULATION_MOBILE_APP="false"
+
 # Drzewna test
 # export AGRIBOT_SIMULATION_TASK="test_task_drzewna"
 # export AGRIBOT_SIMULATION_WORLD="empty"

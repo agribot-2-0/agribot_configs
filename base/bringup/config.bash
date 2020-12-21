@@ -6,3 +6,4 @@ export AGRIBOT_PERCEPTION_SENSORS="true"
 
 export AGRIBOT_VIS="false"
 export AGRIBOT_MAPVIZ="false"
+export AGRIBOT_SMACH_VIEWER="false"
