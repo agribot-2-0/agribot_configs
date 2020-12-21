@@ -2,6 +2,7 @@ export AGRIBOT_LAUNCH_TYPE="sim"
 
 export AGRIBOT_PATH_SYNCHRONIZATION="false"
 export AGRIBOT_MONITORING="false"
+export AGRIBOT_TASK_SUPERVISOR="false"
 export AGRIBOT_PERCEPTION_SENSORS="false"
 
 export AGRIBOT_VIS="true"

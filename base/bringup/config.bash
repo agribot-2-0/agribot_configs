@@ -2,6 +2,7 @@ export AGRIBOT_LAUNCH_TYPE="hal"
 
 export AGRIBOT_PATH_SYNCHRONIZATION="true"
 export AGRIBOT_MONITORING="true"
+export AGRIBOT_TASK_SUPERVISOR="true"
 export AGRIBOT_PERCEPTION_SENSORS="true"
 
 export AGRIBOT_VIS="false"
