@@ -1,0 +1,6 @@
+gain: 0.1
+zeta: 0.01
+mag_bias_x: 0.0
+mag_bias_y: 0.0
+mag_bias_z: 0.0
+orientation_stddev: 0.01
