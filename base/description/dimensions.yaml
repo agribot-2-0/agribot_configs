@@ -1,9 +1,15 @@
-robot_length: 2.1
+dimensions/robot_axis_to_axis_length: 2.1
 
-chassis_width: 1.05
-chassis_height: 1.65
-chassis_mass: 2000
+dimensions/chassis_length: 2.42   # Assumed to be `dimensions/robot_axis_to_axis_length + 2 * dimensions/wheel_radius`
+dimensions/chassis_width: 1.05
+dimensions/chassis_height: 1.65
+dimensions/chassis_mass: 2000
 
-wheel_width: 0.025
-wheel_radius: 0.16
-wheel_mass: 50
+dimensions/wheel_width: 0.025
+dimensions/wheel_radius: 0.16
+dimensions/wheel_mass: 50
+
+dimensions/cart_length: 0.32      # Assumed to be `2 * dimensions/wheel_radius`
+dimensions/cart_width: 1.05       # Assumed to be `chassis_width`
+dimensions/cart_height: 0.32      # Assumed to be `2 * dimensions/wheel_radius`
+dimensions/cart_mass: 500

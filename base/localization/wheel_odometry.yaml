@@ -1,0 +1,5 @@
+wheel_odometry/orientation_covariance: 0.01
+wheel_odometry/position_covariance: 0.01
+wheel_odometry/linear_velocity_x_covariance: 0.0001
+wheel_odometry/linear_velocity_y_covariance: 0.0001
+wheel_odometry/angular_velocity_z_covariance: 0.0001
