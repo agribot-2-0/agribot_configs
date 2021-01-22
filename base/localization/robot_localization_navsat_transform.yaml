@@ -1,6 +1,6 @@
 navsat_transform:
   # Time to wait before calculating the transform
-  delay: 0.0
+  delay: 2.0
 
   # IMU correction
   magnetic_declination_radians: 0.0 # Declination correction is handled in imu_declination_correction_node
