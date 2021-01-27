@@ -1,0 +1,13 @@
+hal/hydrabox/covariances:
+  linear_acceleration_covariance:
+    x: 0.04
+    y: 0.04
+    z: 0.04
+  angular_velocity_covariance:
+    x: 0.02
+    y: 0.02
+    z: 0.02
+  magnetometer_covariance:
+    x: 0.001
+    y: 0.001
+    z: 0.001
