@@ -1,0 +1,17 @@
+hal/hydrabox/imu_bias:
+  accelerometer_offset:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  gyroscope_offset:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  magnetometer_offset:
+    x: -7.233995893329848e-05
+    y: -4.828997407457791e-05
+    z: 0.00016380444139940664
+  magnetometer_scale:
+    x: 1.0995715895945335
+    y: 1.4523103945328786
+    z: 3.5871278961727326
