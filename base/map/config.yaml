@@ -1,2 +1,4 @@
-agribot_map_paths_path: agribot/configs/base/map/paths
-agribot_map_tasks_path: agribot/configs/base/map/tasks
+agribot_map:
+  paths_path: agribot/configs/base/map/paths
+  tasks_path: agribot/configs/base/map/tasks
+  remove_cached_tasks: false
