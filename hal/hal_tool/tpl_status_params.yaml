@@ -1,2 +1,2 @@
 hal_tool:
-  can_bus_name: "can1"
+  can_bus_name: "can0"
