@@ -1,0 +1,2 @@
+hal_tool:
+  can_bus_name: "can0"
