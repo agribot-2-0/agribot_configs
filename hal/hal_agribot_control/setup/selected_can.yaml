@@ -1,0 +1,2 @@
+hal_agribot_control:
+  can_bus_name: "can0"
