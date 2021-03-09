@@ -12,8 +12,9 @@ navsat_transform:
   wait_for_datum: false
 
   # [utm -> map] TF publication
-  broadcast_utm_transform: true
-  broadcast_utm_transform_as_parent_frame: false
+  broadcast_cartesian_transform: true
+  broadcast_cartesian_transform_as_parent_frame: false
+  use_local_cartesian: false
 
   # Filtered GPS publication
   publish_filtered_gps: true
