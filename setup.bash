@@ -15,4 +15,6 @@ then
     source $AGRIBOT_HOME/agribot/configs/base/bringup/config_simulation.bash
 else
     source $AGRIBOT_HOME/agribot/configs/base/bringup/config.bash
+    export ROS_MASTER_URI=http://10.0.1.2:11311
+    export ROS_IP=10.0.1.2
 fi
