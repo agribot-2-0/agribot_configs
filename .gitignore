@@ -4,3 +4,5 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 base/firebase_key/
+base/map/tasks/
+base/map/paths/
