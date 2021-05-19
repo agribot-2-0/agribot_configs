@@ -39,9 +39,9 @@ AgribotPlannerROS:
   costmap_converter_spin_thread: True
   costmap_converter_rate: 5
 
-  costmap_converter/CostmapToPolygonsDBSMCCH:
-    cluster_max_distance: 1.0
-    cluster_min_pts: 10
-    cluster_max_pts: 200
-    convex_hull_min_pt_separation: 1.0
+  # costmap_converter/CostmapToLinesDBSMCCH:
+  #   # cluster_max_distance: 1.0
+  #   # cluster_min_pts: 10
+  #   # cluster_max_pts: 200
+  #   convex_hull_min_pt_separation: 0.0
 
