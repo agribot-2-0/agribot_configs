@@ -1,3 +1,5 @@
+base_local_planner: agribot_navigation/AgribotPlannerROS
+base_global_planner: agribot_navigation/WaypointGlobalPlanner
 shutdown_costmaps: false
 controller_frequency: 3.0
 controller_patience: 1.0
@@ -8,3 +10,4 @@ clearing_rotation_allowed: false
 oscillation_timeout: 0.0
 oscillation_distance: 0.2
 conservative_reset_dist: 0.10
+max_planning_retries: 0

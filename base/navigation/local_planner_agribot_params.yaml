@@ -21,7 +21,7 @@ AgribotPlannerROS:
 
   design_dead_zone: 0.0               # degrees
   design_arc_radius: 4.0             # metres
-  design_step_size: 0.05               # metres
+  design_step_size: 0.5               # metres
 
   hermite_magnitude: 10.0             # factor
 
