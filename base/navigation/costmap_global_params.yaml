@@ -6,4 +6,3 @@ global_costmap:
   width: 10.0
   height: 10.0
   transform_tolerance: 10.0
-

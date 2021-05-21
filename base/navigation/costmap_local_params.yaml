@@ -3,7 +3,6 @@ local_costmap:
   update_frequency: 1.0
   publish_frequency: 1.0
   rolling_window: true
-  # transform_tolerance: 10.0
   width: 20
   height: 6
   resolution: 0.1
