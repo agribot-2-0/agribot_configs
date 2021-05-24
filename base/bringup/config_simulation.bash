@@ -8,6 +8,5 @@ export AGRIBOT_TOOL_CONTROLLER_SIMLUATED="true"
 
 export AGRIBOT_VIS="true"
 export AGRIBOT_MAPVIZ="false"
-export AGRIBOT_SMACH_VIEWER="true"
 
 export AGRIBOT_LOCALIZATION_USE_UKF="false"
