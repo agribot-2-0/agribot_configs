@@ -1,4 +1,7 @@
 AgribotPlannerROS:
+  reference_frame_id: "base_footprint"
+  obstacle_frame_id: "base_footprint"
+
   epsilon: 1e-3                       # unitless
 
   chassis_length: 2.1                 # metres
