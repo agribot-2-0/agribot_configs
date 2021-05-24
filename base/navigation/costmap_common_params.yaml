@@ -1,0 +1,22 @@
+robot_base_frame: base_footprint
+
+footprint: [[-2.5, -0.75], [-2.5, 0.75], [2.5, 0.75], [2.5, -0.75]]
+obstacle_range: 9.0
+raytrace_range: 15.0
+
+plugins: 
+  - {name: obstacles_layer, type: "costmap_2d::ObstacleLayer"}
+
+static_layer:
+  map_topic: /map
+
+obstacles_layer:
+  observation_sources: point_cloud_scan
+  obstacle_range: 4.0
+  point_cloud_scan: {data_type: PointCloud2, topic: /lidar_scan, marking: true, clearing: true}
+
+
+inflater_layer:
+  inflation_radius: 0.1
+  cost_scaling_factor: 0.1
+  transform_tolerance: 0.2
