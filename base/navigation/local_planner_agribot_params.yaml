@@ -1,5 +1,5 @@
 AgribotPlannerROS:
-  reference_frame_id: "base_footprint"
+  reference_frame_id: "odom"
   obstacle_frame_id: "base_footprint"
 
   epsilon: 1e-3                       # unitless
