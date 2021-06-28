@@ -7,11 +7,11 @@ AgribotPlannerROS:
   chassis_length: 2.1                 # metres
   max_linear_vel: 0.3                 # m/s
   min_linear_vel: 0.1                 # m/s
-  min_radius: 2.0                     # metres
+  min_radius: 1.9                     # metres
   dead_zone: 3.0                      # degrees
 
   max_missed_waypoints: 5     # n
-  maximum_distance_to_path_tolerance: 1.0 # m
+  maximum_distance_to_path_tolerance: 0.5 # m
 
   deviation_weight_straight: 0.6      # factor
   parallelness_weight_straight: 10.0  # factor
