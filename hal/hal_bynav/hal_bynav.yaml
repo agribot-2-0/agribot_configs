@@ -1,0 +1,7 @@
+frame_id: "bynav_link"
+ip_address: "192.168.0.102"  
+port: 1111
+timeout_ms: 500
+buffer_size: 1024
+publish_extended_data: true
+print_debug_info: false
