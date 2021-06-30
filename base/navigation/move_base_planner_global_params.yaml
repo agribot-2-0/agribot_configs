@@ -1,0 +1,3 @@
+AgribotGlobalPlanner:
+  reference_frame_id: "map"
+  step_size: 1.0
