@@ -16,8 +16,7 @@ AgribotLocalPlanner:
   maximum_distance_to_path_tolerance: 0.5 # m
 
 # Goal reaching parameters
-  goal_distance_tolerance: 0.5        # metres
-
+  goal_distance_tolerance: 0.4        # metres
 
 # Planners parameters
   design_step_size: 0.1               # metres
@@ -31,7 +30,6 @@ AgribotLocalPlanner:
 
 # Trackers parameters
   missed_distance_coefficient: 1.1    # factor >1 (obsolescent)
-
 
 # Controllers parameters
   agribot_controller_plugin: StanleyController
