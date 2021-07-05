@@ -10,3 +10,4 @@ export AGRIBOT_VIS="true"
 export AGRIBOT_MAPVIZ="false"
 
 export AGRIBOT_LOCALIZATION_USE_UKF="false"
+export AGRIBOT_LOCALIZATION_TF_SOURCE="bynav"
