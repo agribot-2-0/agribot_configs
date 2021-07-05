@@ -1,5 +1,5 @@
-base_local_planner: agribot_navigation/AgribotPlannerROS
-base_global_planner: agribot_navigation/WaypointGlobalPlanner
+base_local_planner: agribot_navigation/AgribotLocalPlanner
+base_global_planner: agribot_navigation/AgribotGlobalPlanner
 shutdown_costmaps: false
 controller_frequency: 3.0
 controller_patience: 1.0

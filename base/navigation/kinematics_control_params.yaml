@@ -5,5 +5,6 @@ precise_Kp: 0.25
 precise_Ki: 0.05
 precise_Kd: 0.3
 precision_range: 7.2
-front_limit: 20.7
-back_limit: 20.7
+front_limit: 40.0
+back_limit: 40.0
+steering_mode: front_wheel # four_wheel, front_wheel, crab

@@ -1,0 +1,47 @@
+AgribotLocalPlanner:
+  reference_frame_id: "odom"
+  obstacle_frame_id: "base_footprint"
+  statistics: true
+  odom_filter_time: 0.1               # seconds
+  epsilon: 1e-3                       # unitless
+
+# Robot parameters
+  chassis_length: 2.1                 # metres
+  max_linear_vel: 0.3                 # m/s
+  min_linear_vel: 0.1                 # m/s
+  min_radius: 1.9                     # metres
+
+# Abort planning parameters
+  max_missed_waypoints: 5     # n
+  maximum_distance_to_path_tolerance: 0.5 # m
+
+# Goal reaching parameters
+  goal_distance_tolerance: 0.4        # metres
+
+# Planners parameters
+  design_step_size: 0.1               # metres
+
+  # circle planner
+  design_dead_zone: 3.0               # degrees
+  design_arc_radius: 4.0             # metres
+
+  # hermite planner
+  hermite_magnitude: 15.0             # factor
+
+# Trackers parameters
+  missed_distance_coefficient: 1.1    # factor >1 (obsolescent)
+
+# Controllers parameters
+  agribot_controller_plugin: StanleyController
+  pure_pursuit_rabbit_distance: 4.0
+  stanley_error_gain: 0.15
+
+# Costmap parameters
+  costmap_converter_plugin: costmap_converter::CostmapToPolygonsDBSMCCH
+  costmap_converter_odom_topic: /odom
+  costmap_converter_spin_thread: True
+  costmap_converter_rate: 5
+
+
+
+
