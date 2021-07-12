@@ -13,6 +13,11 @@ source $AGRIBOT_HOME/agribot/configs/simulation/config.bash
 if [ "$1" == "simulation" ]
 then
     source $AGRIBOT_HOME/agribot/configs/base/bringup/config_simulation.bash
+elif [ "$1" == "jetson" ]
+then
+    source $AGRIBOT_HOME/agribot/configs/base/bringup/config.bash
+    export ROS_MASTER_URI=http://10.0.1.2:11311
+    export ROS_IP=192.168.0.141
 else
     source $AGRIBOT_HOME/agribot/configs/base/bringup/config.bash
     export ROS_MASTER_URI=http://10.0.1.2:11311
