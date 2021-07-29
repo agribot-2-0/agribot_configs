@@ -23,7 +23,7 @@ AgribotLocalPlanner:
 
   # circle planner
   design_dead_zone: 3.0               # degrees
-  design_arc_radius: 4.0             # metres
+  design_arc_radius: 2.0             # metres
 
   # hermite planner
   hermite_magnitude: 15.0             # factor
@@ -32,9 +32,9 @@ AgribotLocalPlanner:
   missed_distance_coefficient: 1.1    # factor >1 (obsolescent)
 
 # Controllers parameters
-  agribot_controller_plugin: StanleyController
-  pure_pursuit_rabbit_distance: 4.0
-  stanley_error_gain: 0.15
+  agribot_controller_plugin: PurePursuitController
+  pure_pursuit_rabbit_distance: 3.5
+  stanley_error_gain: 0.30
 
 # Costmap parameters
   costmap_converter_plugin: costmap_converter::CostmapToPolygonsDBSMCCH

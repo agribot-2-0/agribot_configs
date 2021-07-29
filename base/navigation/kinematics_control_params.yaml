@@ -1,9 +1,9 @@
-coarse_Kp: 0.25
-coarse_Ki: 0.05
-coarse_Kd: 0.3
-precise_Kp: 0.25
-precise_Ki: 0.05
-precise_Kd: 0.3
+coarse_Kp: 0.67
+coarse_Ki: 0.03
+coarse_Kd: 2.39
+precise_Kp: 0.67
+precise_Ki: 0.03
+precise_Kd: 2.39
 precision_range: 7.2
 front_limit: 40.0
 back_limit: 40.0
