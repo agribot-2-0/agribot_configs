@@ -1,4 +1,4 @@
 default_frequency: 10 # Hz
 default_acceleration: 1.0 # m/s^2
-default_velocity_threshold: 0.1 # m/s
-default_acceleration_after_threshold: 0.2 # m/s^2
+default_velocity_threshold: 0.2 # m/s
+default_acceleration_after_threshold: 0.15 # m/s^2
