@@ -1,0 +1,5 @@
+min_height: 0.0
+max_height: 10.0
+range_min: 3.0
+range_max: 10.0
+target_frame: base_footprint
