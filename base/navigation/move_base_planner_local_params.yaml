@@ -16,14 +16,15 @@ AgribotLocalPlanner:
   maximum_distance_to_path_tolerance: 0.5 # m
 
 # Goal reaching parameters
-  goal_distance_tolerance: 0.4        # metres
+  goal_distance_tolerance_y: 1.0        # metres
+  goal_distance_tolerance_x: 0.1        # metres
 
 # Planners parameters
   design_step_size: 0.1               # metres
 
   # circle planner
   design_dead_zone: 3.0               # degrees
-  design_arc_radius: 2.0             # metres
+  design_arc_radius: 4.0             # metres
 
   # hermite planner
   hermite_magnitude: 15.0             # factor
