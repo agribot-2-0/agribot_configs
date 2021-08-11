@@ -1,9 +1,12 @@
-coarse_Kp: 0.25
-coarse_Ki: 0.05
-coarse_Kd: 0.3
-precise_Kp: 0.25
-precise_Ki: 0.05
-precise_Kd: 0.3
+# TODO: Get default values from params instead recofigure
+# THIS PARAMS DO NOT CHANGE KINEMATICS CONTROL BEHAVIOUR
+# CHANGE VALUES IN DYNAMIC RECONFIGURE CONFIG
+front_Kp: 0.25
+front_Ki: 0.05
+front_Kd: 0.3
+back_Kp: 0.25
+back_Ki: 0.05
+back_Kd: 0.3
 precision_range: 7.2
 front_limit: 40.0
 back_limit: 40.0
