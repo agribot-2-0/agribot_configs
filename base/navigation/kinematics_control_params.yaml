@@ -1,3 +1,6 @@
+# TODO: Get default values from params instead recofigure
+# THIS PARAMS DO NOT CHANGE KINEMATICS CONTROL BEHAVIOUR
+# CHANGE VALUES IN DYNAMIC RECONFIGURE CONFIG
 front_Kp: 0.25
 front_Ki: 0.05
 front_Kd: 0.3
