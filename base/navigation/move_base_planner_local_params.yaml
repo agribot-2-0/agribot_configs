@@ -7,7 +7,6 @@ AgribotLocalPlanner:
 
 # Robot parameters
   chassis_length: 2.1                 # metres
-  max_linear_vel: 0.3                 # m/s
   min_linear_vel: 0.1                 # m/s
   min_radius: 1.9                     # metres
 
@@ -28,14 +27,6 @@ AgribotLocalPlanner:
 
   # hermite planner
   hermite_magnitude: 15.0             # factor
-
-# Trackers parameters
-  missed_distance_coefficient: 1.1    # factor >1 (obsolescent)
-
-# Controllers parameters
-  agribot_controller_plugin: PurePursuitController
-  pure_pursuit_rabbit_distance: 3.5
-  stanley_error_gain: 0.30
 
 # Costmap parameters
   costmap_converter_plugin: costmap_converter::CostmapToPolygonsDBSMCCH
