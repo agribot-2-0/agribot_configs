@@ -1,5 +1,4 @@
-cmd_vel_arbiter:
-  starting_state: stop # Possible states: "stop", "navigation", "teleop"
-  timeout: 5.0 # seconds
-  min_radius: 2.1 # meters
-  cutoff_radius: 11.0
+starting_state: stop # Possible states: "stop", "navigation", "teleop"
+timeout: 5.0 # seconds
+min_radius: 2.1 # meters
+cutoff_radius: 11.0
