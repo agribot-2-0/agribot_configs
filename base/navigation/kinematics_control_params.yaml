@@ -1,10 +1,1 @@
-coarse_Kp: 0.67
-coarse_Ki: 0.03
-coarse_Kd: 2.39
-precise_Kp: 0.67
-precise_Ki: 0.03
-precise_Kd: 2.39
-precision_range: 7.2
-front_limit: 40.0
-back_limit: 40.0
 steering_mode: front_wheel # four_wheel, front_wheel, crab
