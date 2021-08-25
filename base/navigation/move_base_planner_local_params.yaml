@@ -16,7 +16,7 @@ AgribotLocalPlanner:
 
 # Goal reaching parameters
   goal_distance_tolerance_y: 1.0        # metres
-  goal_distance_tolerance_x: 0.1        # metres
+  goal_distance_tolerance_x: 0.15        # metres
 
 # Planners parameters
   design_step_size: 0.1               # metres
